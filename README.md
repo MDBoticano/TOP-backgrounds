@@ -1,0 +1,2 @@
+# Project: Building with Backgrounds and Gradients
+[Project](https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-backgrounds-and-gradients) for The Odin Project's HTML & CSS curriculum
