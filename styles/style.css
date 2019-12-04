@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400&display=swap');
+
+/* Start: Testing Outline */
+/* HTML > Body > Elem */
+/* body > * {
+  box-sizing: border-box;
+  border: solid 1px rgb(239, 111, 243);
+}
+
+body > * > * {
+  box-sizing: border-box;
+  border: solid 1px rgb(80, 236, 184);
+}
+
+body > * > * > *  {
+  box-sizing: border-box;
+  border: solid 1px rgb(255, 99, 71);
+}
+
+body > * > * > * > * {
+  box-sizing: border-box;
+  border: solid 1px rgb(107, 142, 35);
+} */
+/* End: Testing Outline */
+
+:root {
+  --wrapper_max-width: 1440px;
+  --font-family--primary: 'Lato', sans-serif;
+  --font-family--secondary: 'Arial';
+
+  --hero-img: url("../images/your_verse_hero.jpg");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family--primary);
+}
+
+.body-wrapper {
+  margin: 0 auto;
+  padding: 0;
+  max-width: var(--wrapper_max-width);
+}
+
+.hero {
+  width: 1440px;
+  height: 656px;
+
+  background-image: var(--hero-img);
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+}
+
+nav {
+  padding: 5.25rem 0;
+}
+
+.nav-links {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+
+  max-width: 980px;
+
+  height: 36px;
+
+  border-radius: .25rem;
+  border: solid 1px #565656;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  list-style: none;
+
+  background: linear-gradient(
+  #8b8b8b 0%,
+  #707070 50%,
+  #5f5f5f 50%,
+  #7a7a7a 100%
+  );
+}
+
+.nav-links__link {
+  height: 100%;
+  width: 105px;
+
+  border-right: solid 1px #565656;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-links__link-text {
+  font-size: 0.75rem;
+  font-weight: 400;
+
+  color: white;
+  text-decoration: none;
+
+  text-shadow: -1px -1px 1px black;
+}
+
+.nav-logo {
+  height: 20px;
+  width: 20px;
+}
+
+.nav-search {
+  width: 132px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.hero-text {
+  margin-left: auto;
+  margin-right: auto;
+
+  max-width: 840px;
+
+  color: white;
+  text-align: center;
+}
+
+.hero-text__title {
+  margin: 0;
+
+  font-size: 4rem;
+  font-weight: 100;
+}
+
+.hero-text__subtitle {
+  margin: 0;
+
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.hero-text__paragraph {
+  margin: 0;
+
+  font-size: 1.5rem;
+  font-weight: 100;
+}
