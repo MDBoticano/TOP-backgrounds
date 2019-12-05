@@ -129,7 +129,30 @@ nav {
 }
 
 .nav-search__input {
-  max-width: 100px;
+  box-sizing: border-box;
+  padding-left: 1.5rem;
+
+  height: 1.25rem;
+  max-width: 100%;
+
+  background-color: rgba(0,0,0, 0%);
+  background-image: url('/images/search.svg');
+  background-position: 0.25rem 0.125rem;
+  background-repeat: no-repeat;
+
+
+
+  border-radius: 1rem;
+
+  box-shadow: 2px -2px rgb(49, 49, 49);
+
+  font-size: .75rem;
+  color: rgb(202, 202, 202);
+}
+
+.nav-search__input:focus {
+  background-color: white;
+  color: black;
 }
 
 .hero-text {
