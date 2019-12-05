@@ -136,7 +136,7 @@ nav {
   max-width: 100%;
 
   background-color: rgba(0,0,0, 0%);
-  background-image: url('/images/search.svg');
+  background-image: url('../images/search.svg');
   background-position: 0.25rem 0.125rem;
   background-repeat: no-repeat;
 
